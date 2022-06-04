@@ -1,0 +1,35 @@
+ ## Bibliotecas:
+
+ # Importar: import biblioteca as apelido
+	Exemplo: import numpoy as np
+
+ # Numpy:
+.zeros(N) - cria array com N zeros;
+.ones(N) - cria array com N uns;
+.empty(N) - cria array com N elementos não nulos, próximo a vazio;
+.shape - retirna dimensões do array (linhas, colunas);
+.linspace(X, Y, N) - cria array com início(X), fim(Y) e número de componentes(N);
+.array([]) - especificar array manualmente;
+np.add(x, y) - soma os arrays x e y, item a item;
+np.subtract(x, y) - subtrai os arrays x e y, item a item;
+np.multiply(x, y) - multiplica os arrays x e y, item a item;
+np.divide(x, y) - divide os arrays x e y, item a item;
+
+ # Pandas:
+.read - ler arquivo;
+.shape - informa dimensões do arquivo;
+.dtypes - informa tipos de variáveis;
+.head() - retorna as 5 primeiras linhas;
+.tail() - retorna as 5 últimas linhas;
+.loc[N] - filtra pelo index informado (N)/padrão: linha;
+.iloc[x, y] - filtra por célula;
+['nome da coluna'] - filtra pela coluna;
+['nome da coluna'].plot() - plotar coluna;
+nomeDaColuna.plot - plotar coluna;
+.iloc[x:y].nomeDaColuna.plot() - plotar segmento e coluna, entre linhas x e y;
+variavel.index = variavel.Date - torna a data, o índice da dataframe;
+.rename(columns={'x':'X', 'y':'Y', 'n':'N'}, inplace = True - renomear colunas;
+.drop(['coluna1', 'coluna2'], axis = 1, inplace = True - remove colunas;
+.plot(figsize = (x, y)) - informa tamanho do plot;
+
+

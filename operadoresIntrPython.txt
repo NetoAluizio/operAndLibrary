@@ -1,0 +1,50 @@
+## Alguns Operadores:
+
+ # Range / range(n,x):
+- Intervalo de ação: n (incluso) e x (excluso).
+
+ # Enumerate / enumerate():
+- Enumera todos os elementos.
+
+ # Zip / zip():
+- Iterar listas.
+
+ # In / in:
+- Leitura sequencial. Frequentemente usado em laços;
+- Oerador lógico: retorna bool.
+
+ # f'':
+- Permite uso de variáveis entre chaves.
+
+ # Randint / randint(n, x):
+- Retorna um número aleatório do intervalo apresentado.
+
+ # Shuffle / shuffle():
+- 'Embaralha' elementos.
+
+ # Mínimo / min():
+- Retorna valor mínimo.
+
+ # Máximo / max():
+- Retorna valor máximo.
+
+ # Input / input():
+- Entrada de dados pelo usuário.
+
+## Funções:
+
+ # Map / map():
+- Aplica uma função a vários elementos de uma lista.
+
+ # Filter / filter():
+- Aplica um filtro a vários elementos de uma lista.
+
+ # Argumentos / *args:
+- Usa-se em casos de N argumentos
+	Exemplo:
+		def soma_varios(*args):
+		    soma = sum(args)
+		    return soma
+ # Kwargs / **kwargs:
+- Análogo ao args, podendo receber argumentos com nome.
+
